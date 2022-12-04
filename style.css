@@ -50,6 +50,36 @@ a {
   display: flex;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 790px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background-color: #eeeeee;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+.card__image {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 200px;
+  object-fit: contain;
+}
+.card__heading {
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.card__content {
+  font-size: 16px;
+}
+
 .footer {
   display: flex;
   min-height: 300px;
