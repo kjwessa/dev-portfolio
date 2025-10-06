@@ -91,3 +91,79 @@ a {
   color: #fff;
   margin: auto;
 }
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+  .header-title {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+  }
+
+  .content {
+    margin: 50px 20px 30px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 40px;
+    padding: 30px 25px 40px;
+  }
+
+  .card__image {
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .card__heading {
+    font-size: 22px;
+  }
+
+  .card__content {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .footer {
+    min-height: 200px;
+  }
+
+  .footer__text {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-title {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .content {
+    margin: 40px 15px 20px;
+  }
+
+  .card {
+    padding: 25px 20px 35px;
+    margin-bottom: 30px;
+  }
+
+  .card__image {
+    height: 160px;
+  }
+
+  .card__heading {
+    font-size: 20px;
+  }
+
+  .card__content {
+    font-size: 14px;
+  }
+
+  .footer__text {
+    font-size: 18px;
+  }
+}
