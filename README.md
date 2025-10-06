@@ -1,33 +1,42 @@
-# Dev Portfolio
+# Kevin Wessa Portfolio
 
-A simple static portfolio site built with HTML and CSS. The page highlights the
-personal story of Kevin Wessa with cards for family, friends, web development,
-and business interests.
+A clean, fast-loading personal portfolio showcasing Kevin Wessa's life and work through an elegant card-based design. Built with vanilla HTML, CSS, and JavaScript—no frameworks, no build step, no complexity.
 
-## Project structure
+## Features
 
-- `index.html` – static markup for the single-page site.
-- `style.css` – global styles and layout rules.
-- `images/` – image assets referenced by the page.
-- `fonts/` – custom web fonts used by the stylesheet.
+- **Zero Dependencies**: Pure HTML/CSS/JS for maximum performance and longevity
+- **Card-Based Layout**: Four thoughtfully designed sections (Family, Friends, Web Development, Business)
+- **Responsive Design**: Flexbox-based layout that works beautifully on any device
+- **Custom Typography**: Self-hosted "Permanent Marker" font for distinctive branding
+- **Optimized Assets**: Web-optimized images for fast loading
 
-## Getting started
+## Quick Start
 
-No build tools are required. You can preview the site by opening
-`index.html` directly in your browser:
+Open `index.html` in your browser:
 
 ```bash
-# from the repository root
 open index.html        # macOS
 xdg-open index.html    # Linux
-start index.html       # Windows (PowerShell)
+start index.html       # Windows
 ```
 
-Alternatively, serve the directory with any static file server (for example
-`python -m http.server`) if you need to test on mobile devices.
+For testing on multiple devices, use any static server:
 
-## Maintenance notes
+```bash
+python3 -m http.server 8000
+# or
+npx serve .
+```
 
-The project has not been actively updated in several years. If you plan to
-extend the site, consider modernizing the layout, replacing outdated content,
-and optimizing the images for current devices.
+## Project Structure
+
+```
+├── index.html          # Main portfolio page
+├── style.css           # All styling and responsive layout
+├── fonts/              # Custom web fonts
+└── images/             # Optimized portfolio images
+```
+
+## Design Philosophy
+
+This portfolio embraces simplicity and performance. By avoiding build tools and frameworks, the site loads instantly, works everywhere, and will run unchanged for years to come. Sometimes the best technology is no technology at all.
