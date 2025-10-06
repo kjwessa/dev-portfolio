@@ -91,3 +91,29 @@ a {
   color: #fff;
   margin: auto;
 }
+
+/* Mobile responsive styles for header */
+@media screen and (max-width: 768px) {
+  .header {
+    background-position: 65% center;
+  }
+
+  .header-title {
+    font-size: 64px;
+    line-height: 68px;
+    padding: 0 20px;
+  }
+
+  .overlay {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-title {
+    font-size: 48px;
+    line-height: 52px;
+    padding: 0 16px;
+  }
+}
