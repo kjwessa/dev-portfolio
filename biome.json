@@ -1,12 +1,13 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "ignore": [
-      "**/node_modules",
-      "**/dist",
-      "**/.git",
-      "**/*.min.js",
-      "**/pnpm-lock.yaml"
+    "includes": [
+      "**/*",
+      "!**/node_modules",
+      "!**/dist",
+      "!**/.git",
+      "!**/*.min.js",
+      "!**/pnpm-lock.yaml"
     ]
   }
 }
