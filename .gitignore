@@ -1,0 +1,13 @@
+.DS_Store
+
+# Claude Code
+.claude
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Package manager files
+pnpm-lock.yaml

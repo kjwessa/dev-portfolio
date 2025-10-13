@@ -1,0 +1,26 @@
+# Exclude version control
+.git
+.gitignore
+
+# Exclude dependencies and build outputs
+node_modules
+dist
+
+# Exclude package manager files
+package.json
+package-lock.json
+pnpm-lock.yaml
+
+# Exclude documentation
+README.md
+
+# Exclude Wrangler config (it's not an asset)
+wrangler.jsonc
+wrangler.json
+wrangler.toml
+
+# Exclude system files
+.DS_Store
+
+# Exclude Claude Code
+.claude
