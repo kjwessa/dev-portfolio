@@ -11,6 +11,9 @@ package.json
 package-lock.json
 pnpm-lock.yaml
 
+# Exclude dev tooling config
+biome.json
+
 # Exclude documentation
 README.md
 
